@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaoStore</title>
+    <link rel="shortcut icon" href="./img/favicoin.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--BARRA DE NAVEGACION TLF-->
+    <nav class="navbar d-md-none" id="navbartlf">
+    <a class="btn" data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="offcanvasExample">
+      <img src="./img/list.svg" alt="">
+    </a>
+    <a class="btn" data-bs-toggle="offcanvas" href="#menu">
+      <img src="./img/person.svg" alt="">
+    </a>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title fw-light" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div>
+        <div class="offcanvas-body d-flex flex-column" id="canvaslink">
+          <a href="#navbar">
+            Inicio
+          </a>
+          <a href="#contenedor">
+            Catalogo
+          </a>
+          <a href="#presentacion2">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--NAVBAR TLF-->
+    <!--NAVBAR PC-->
+      <nav
+      id="navbar"
+      class="navbar navbar-expand-lg justify-content-center fixed-top shadow fw-light text-center d-none d-md-flex"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item " aria-current="page">
+          <a class="nav-link active" href="#navbar">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contenedor">CATALOGO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#presentacion2">CONTACTO</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="PaoFondo">
+      <img src="./img/PaoStore.png" alt="" />
+    </div>
+    <!--NAVBAR PC-->
+    <!--FIN NAVEGACION-->
+    <!--CUERPO-->
+
+    <h1 class="text-center m-4 d-block" id="presentacion">Todo para ellas</h1>
+
+    <div id="contenedor">
+    <div class="card border-0" id="card">
+      <a href=""><img src="./img/ModeloTrajeDeBaño.webp" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Trajes de baño</p></a>
+      </div>
+    </div>
+    <div class="card border-0" id="card">
+      <a href=""><img src="./img/modeloVestido.webp" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Vestidos</p></a>
+      </div>
+    </div>
+    <div class="card border-0" id="card">
+      <a href=""><img src="./img/modeloTops.webp" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Tops</p></a>
+      </div>
+    </div>
+    <a href=""><div class="card border-0" id="card">
+      <a href=""><img src="./img/modeloAccesorios2.webp" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Accesorios</p></a>
+      </div>
+    </div>
+  </div>
+    <!--Deporte-->
+    <h2 class="text-center fuente m-4" id="presentacion3"></h2>
+    <div class="row mt-4">
+    <div class="col-md-3"></div>
+    <div class="col-sm-12 col-md-6 mt-3">
+      <img src="./img/modeloropaDeportiva.webp" class="card-img-top" alt="Imagen de ropa deportiva">
+      <div class="card-body">
+        <h5 class="card-title text-center m-3 fuente display-6">Libera tu fuerza interior con nuestra ropa deportiva</h5>
+        <a href="https://wa.me/584127858516?text=Bienvenido%20a%20PaoStore" target="_blank" class="btn btn-success d-flex justify-content-center m-3 fuente">Comprar ahora</a>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+
+    <h2 class="text-center fuente m-4" id="presentacion2">Contactanos</h2>
+    <div class="text-center">
+      <a href="https://www.instagram.com/paostore_ve/?hl=es" target="_blank" class="col-11 col-md-6 text-center btn btn-info m-2 fuente"><img class="m-2" src="./img/instagram.svg" alt="">Instagram</a>
+      <a href="https://wa.me/584127858516?text=Bienvenido%20a%20PaoStore" target="_blank" class="col-11 col-md-6 text-center btn btn-success m-2 fuente" ><img class="m-2" src="./img/whatsapp.svg" alt="">Whatsapp</a>
+    </div>
+
+<h2 class="text-center fuente m-4" id="presentacion3"></h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h4>Sobre Nosotros</h4>
+        <p>Descubre la última moda en nuestra tienda en línea. Encuentra las últimas tendencias y estilos de temporada en ropa, accesorios y más. Ofrecemos una amplia selección de productos de alta calidad a precios asequibles. ¡Explora nuestra colección hoy mismo y sorpréndete con nuestra variedad de estilos y diseños!</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h4>Contacto</h4>
+        <p>Dirección de la tienda<br>
+           Teléfono: (123) 456-7890<br>
+           Correo electrónico: info@paostore.com</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <hr>
+        <p class="text-center">&copy; 2023 paostore.com - Todos los derechos reservados - Creado por Daniel Sandrea</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    <!-- FIN CUERPO-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
